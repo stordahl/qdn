@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Code Pro", monospace;
+  color: white;
+  background-color: #4b536e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-weight: 500;
+  margin: 5px;
+}
+
+#queer {
+  font-weight: 900;
+  color: #75c9c9;
+}
+
+#emoji {
+  opacity: 30%;
+  position: absolute;
+  font-size: 17rem;
+  top: 0;
+  right: 6rem;
+  transform: rotate(27deg);
+}
+
+a {
+  text-decoration: none;
+  color: #E57373;
+}
+a:hover {
+  padding-right: 5px;
+}
+
+#rowCont {
+  padding: 8rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#row2 {
+  align-items: flex-end;
+}
+
+@media (min-width: 768px) {
+  #rowCont {
+    padding: 8rem;
+    padding-left: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
